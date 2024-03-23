@@ -1,0 +1,28 @@
+@startuml
+
+  class Advice {
+    +suggestion: String
+    +status: int
+    +id: int
+  }
+
+  interface AdviceMapper {
+    +insertad(suggestion: String): int
+    +getUnreadSuggestions(): List<Advice>
+    +getSuggestionDetail(id: int): Advice
+    +markAsRead(id: int): int
+  }
+
+  class AdviceController {
+    -adviceMapper: AdviceMapper
+    +insert(advice: Advice): Result
+    +getSuggestionDetail(id: int): Advice
+    +getUnreadSuggestions(): List<Advice>
+    +markAsRead(id: int): Result
+  }
+
+  AdviceController *-- AdviceMapper
+  AdviceMapper --> Advice
+
+@enduml
+
