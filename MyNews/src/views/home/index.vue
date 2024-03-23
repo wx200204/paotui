@@ -27,7 +27,7 @@
 
 
         <van-tabs v-model:active="active"  @click-tab="onClickTab" sticky :offset-top="51">
-  <van-tab  div="gd1" title="要闻">
+  <van-tab  div="gd1" title="推荐">
     <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white" lazy-render>
     <van-swipe-item v-for="image in images" :key="image" class="image-item">
   <img :src="image" class="image" />
@@ -50,9 +50,9 @@ class="custom-card"
 
 </van-tab>
 
-  <van-tab    title="实事">内容 2</van-tab>
-  <van-tab  title="国际">内容 3</van-tab>
-  <van-tab   title="科技">内容 4</van-tab>
+  <van-tab    title="抢单">内容 2</van-tab>
+  <van-tab  title="代取">内容 3</van-tab>
+  <van-tab   title="代送">内容 4</van-tab>
 
 </van-tabs>
 

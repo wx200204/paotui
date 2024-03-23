@@ -57,7 +57,7 @@
 <div class="biao">
   <div class="box" @click="Fabu">
     <van-icon name="guide-o"        size="30px"/>
-    <span class="zuo">发布新闻</span>
+    <span class="zuo">发布订单</span>
     <van-icon name="arrow" size="25px"/>
   </div>
 
@@ -69,7 +69,7 @@
 
   <div class="box" @click="Shen">
     <van-icon name="sign"   size="30px"/>
-    <span class="zuo">审核新闻</span>
+    <span class="zuo">审核订单</span>
     <van-icon name="arrow" size="25px"/>
   </div>
 
