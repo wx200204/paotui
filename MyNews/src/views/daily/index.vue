@@ -1,38 +1,34 @@
 <template>
     <div class="big">
-        <van-pull-refresh v-model="loading" @refresh="onRefresh" head-height="50" style="min-height: 100vh;" pull-distance="5">
-            <van-tabs v-model:active="activeName" :swipeable="true" sticky animated >
-  <van-tab name="a">
-    <template #title>
-      <div class="custom-tab-title">
-        <span>评论</span>
-      
-      </div>
-    </template>
-    <van-empty description="暂无评论" />
-  </van-tab>
-  <van-tab name="b">
-    <template #title>
-      <div class="custom-tab-title">
-        <span>点赞</span>
+      <van-tabs v-model:active="active" @click-tab="onClickTab">
+  <van-tab title="我寄的">
+    
+    <van-tabs v-model:active="active"  @click-tab="onClickTab" sticky :offset-top="51">
+  <van-tab  div="gd1" title="全部">内容 1
+   
+</van-tab>
 
-      </div>
-    </template>
-    <van-empty description="暂无点赞" />
-  </van-tab>
-  <van-tab name="c">
-    <template #title>
-      <div class="custom-tab-title">
-        <span>系统通知</span>
-        <van-icon name="bell-o" />
-      </div>
-    </template>
-    <van-empty description="暂无通知" />
-  </van-tab>
+  <van-tab    title="待支付">内容 2</van-tab>
+  <van-tab  title="进行中">内容 3</van-tab>
+  <van-tab   title="已完成">内容 4</van-tab>
+
 </van-tabs>
 
+  </van-tab>
 
-</van-pull-refresh>
+
+
+  <van-tab title="我收的">    <van-tabs v-model:active="active"  @click-tab="onClickTab" sticky :offset-top="51">
+  <van-tab  div="gd1" title="全部">内容 1
+   
+</van-tab>
+
+  <van-tab    title="待支付">内容 2</van-tab>
+  <van-tab  title="进行中">内容 3</van-tab>
+  <van-tab   title="已完成">内容 4</van-tab>
+
+</van-tabs></van-tab>
+</van-tabs>
 
     </div>
 </template>
