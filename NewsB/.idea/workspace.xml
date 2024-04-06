@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6e6bdad-b872-44cc-9bba-b45c73df9d3e" name="Changes" comment="小枫666">
+      <changelist_data name="valarBetter" email="3096271350@qq.com" />
+      <change beforePath="$PROJECT_DIR$/../MyNews/src/assets/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MyNews/src/assets/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlantUML/反馈和查看反馈功能协作图.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlantUML/反馈和查看反馈功能类图.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsb/NewsBApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsb/common/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsb/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsb/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsb/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsb/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsb/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsb/exception/ServiceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsb/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsb/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsb/utils/SnowUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newsb/utils/TokenUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/newsb/NewsBApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="UML Sequence" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="valarBetter &lt;3096271350@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2WpwJXMXRKRRRUUKKm2iL16bVSe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="NewsBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="NewsB" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.newsb.NewsBApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6e6bdad-b872-44cc-9bba-b45c73df9d3e" name="Changes" comment="" />
+      <created>1697442760617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697442760617</updated>
+      <workItem from="1697442761422" duration="482000" />
+      <workItem from="1697449368054" duration="3962000" />
+      <workItem from="1697502031432" duration="2596000" />
+      <workItem from="1697517654267" duration="612000" />
+      <workItem from="1697541178906" duration="609000" />
+      <workItem from="1697588853420" duration="1227000" />
+      <workItem from="1697592104155" duration="842000" />
+      <workItem from="1697594823562" duration="14151000" />
+      <workItem from="1697616422691" duration="867000" />
+      <workItem from="1697681315062" duration="1244000" />
+      <workItem from="1697696742981" duration="160000" />
+      <workItem from="1697850094691" duration="783000" />
+      <workItem from="1697868117825" duration="619000" />
+      <workItem from="1698107197214" duration="3158000" />
+      <workItem from="1698193418864" duration="9953000" />
+      <workItem from="1698637174978" duration="37000" />
+      <workItem from="1698798534417" duration="2599000" />
+      <workItem from="1698803092853" duration="853000" />
+      <workItem from="1698819696573" duration="1259000" />
+      <workItem from="1698831304944" duration="602000" />
+      <workItem from="1699404038245" duration="1970000" />
+      <workItem from="1699442513902" duration="12000" />
+      <workItem from="1700833883907" duration="346000" />
+      <workItem from="1700834980462" duration="181000" />
+      <workItem from="1700877509428" duration="784000" />
+      <workItem from="1701077507952" duration="21000" />
+      <workItem from="1701180457366" duration="26000" />
+      <workItem from="1701255618516" duration="7000" />
+      <workItem from="1701413299742" duration="339000" />
+      <workItem from="1701613998020" duration="899000" />
+      <workItem from="1701689799465" duration="7000" />
+      <workItem from="1702983337317" duration="1070000" />
+      <workItem from="1703039648309" duration="4342000" />
+      <workItem from="1703044050930" duration="2000" />
+      <workItem from="1703046803156" duration="12375000" />
+      <workItem from="1703065990599" duration="4492000" />
+      <workItem from="1703076825931" duration="167000" />
+      <workItem from="1703077832095" duration="2751000" />
+      <workItem from="1703127264621" duration="616000" />
+      <workItem from="1703144796048" duration="974000" />
+      <workItem from="1703155056746" duration="2999000" />
+      <workItem from="1703219425172" duration="804000" />
+      <workItem from="1703225739093" duration="206000" />
+      <workItem from="1703305716830" duration="1380000" />
+      <workItem from="1703307117930" duration="1137000" />
+      <workItem from="1703385592967" duration="5833000" />
+      <workItem from="1703414759449" duration="859000" />
+      <workItem from="1703745408016" duration="3559000" />
+      <workItem from="1703758374980" duration="959000" />
+      <workItem from="1703769402081" duration="1604000" />
+      <workItem from="1703823179465" duration="2620000" />
+      <workItem from="1703826386511" duration="278000" />
+      <workItem from="1703826973208" duration="664000" />
+      <workItem from="1703853037072" duration="9951000" />
+      <workItem from="1703923515733" duration="5000" />
+      <workItem from="1711200526234" duration="3941000" />
+      <workItem from="1711369687350" duration="1250000" />
+      <workItem from="1711871696563" duration="698000" />
+      <workItem from="1711872862867" duration="17000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;小枫666&quot;">
+      <created>1703057044088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703057044088</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;小枫666&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;小枫666&quot;" />
+  </component>
+</project>

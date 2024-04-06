@@ -123,6 +123,7 @@ import { useRouter } from 'vue-router';
 import { ref } from 'vue';
 import {  showFailToast } from 'vant';
 import { onMounted } from 'vue';
+import { addNumber } from 'vant/lib/utils';
 
 
 
@@ -181,7 +182,7 @@ setup(){
 
   let router=useRouter();
   let Fabu = () => {
-    if( localStorage.getItem('status')>=2){
+    if( (localStorage.getItem('status')>=2)||(localStorage.getItem('status')==null)){
       router.push('/fa')
       
     }

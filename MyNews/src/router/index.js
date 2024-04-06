@@ -35,6 +35,14 @@ routes:[
 
 },
 {
+    path:'/register',
+    component:()=>import('../views/register'),
+    meta:{
+        
+        showNav:true
+    }
+},
+{
     path:'/fa',
     component:()=>import('../views/setting/news_edit')
 

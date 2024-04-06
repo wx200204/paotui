@@ -27,6 +27,10 @@
             <van-button color="#1751f1" round block type="primary" native-type="submit" @click="onSubmit">
               登录
             </van-button>
+            <div style="height: 20px;"></div> <!-- 添加间隔 -->
+            <van-button color="#ffc400" round block type="primary" native-type="submit" @click="tozhuce">
+              注册
+            </van-button>
           </div>
         </van-form>
       </div>
@@ -55,6 +59,9 @@ export default {
       isLoggedIn.value = true;
       console.log('Login successful!');
     };
+    let tozhuce = () => {
+      router.push('/register');
+    }
     let onSubmit = () => {
       instance
         .get('/login', {
@@ -91,6 +98,7 @@ export default {
       password,
       onSubmit,
       isLoggedIn,
+      tozhuce,
     };
   },
 };
